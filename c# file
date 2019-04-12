@@ -1,0 +1,214 @@
+using System;
+
+namespace Bill
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Въведете Продукт (1 = Банан; 2 = Ябълка; 3 = Портокал; 4 = Авокадо; 5 = Домат): ");
+            int product = int.Parse(Console.ReadLine());
+            if (product == 1)
+            {
+                Console.Write("Въведете цена на продукта (лв): ");
+                double price = double.Parse(Console.ReadLine());
+                Console.Write("Въведете количество на продукта: ");
+                int quantity = int.Parse(Console.ReadLine());
+                Console.Write("Обща сума: " + price * quantity + "лв | Искате ли да продължите? (1 = да; 2= не): ");
+                int last = int.Parse(Console.ReadLine());
+                if (last == 1)
+                Console.Write("Пари дадеди в брой: ");
+                double number = double.Parse(Console.ReadLine());
+                double sum = price * quantity;
+                double substract = sum - number;
+                double substract2 = substract * -1;
+                {
+                    Header();
+                    Console.WriteLine("                          Банан х " + quantity + "            " + price * quantity + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("                          ОБЩА СУМА" + "            " + price * quantity + "лв");
+                    Console.WriteLine("                          В Брой" + "               " + number + "лв");
+                    Console.WriteLine("                          Ресто" + "                " + substract2 + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Footer();
+                }
+                if (last == 2)
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            if (product == 2)
+            {
+                Console.Write("Въведете цена на продукта (лв): ");
+                double price = double.Parse(Console.ReadLine());
+                Console.Write("Въведете количество на продукта: ");
+                int quantity = int.Parse(Console.ReadLine());
+                Console.Write("Обща сума: " + price * quantity + "лв | Искате ли да продължите? (1 = да; 2= не): ");
+                int last = int.Parse(Console.ReadLine());
+                if (last == 1)
+                    Console.Write("Пари дадеди в брой: ");
+                double number = double.Parse(Console.ReadLine());
+                double sum = price * quantity;
+                double substract = sum - number;
+                double substract2 = substract * -1;
+                {
+                    Header();
+                    Console.WriteLine("                          Ябълка х " + quantity + "            " + price * quantity + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("                          ОБЩА СУМА" + "            " + price * quantity + "лв");
+                    Console.WriteLine("                          В Брой" + "               " + number + "лв");
+                    Console.WriteLine("                          Ресто" + "                " + substract2 + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Footer();
+                }
+                if (last == 2)
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            if (product == 3)
+            {
+                Console.Write("Въведете цена на продукта (лв): ");
+                double price = double.Parse(Console.ReadLine());
+                Console.Write("Въведете количество на продукта: ");
+                int quantity = int.Parse(Console.ReadLine());
+                Console.Write("Обща сума: " + price * quantity + "лв | Искате ли да продължите? (1 = да; 2= не): ");
+                int last = int.Parse(Console.ReadLine());
+                if (last == 1)
+                    Console.Write("Пари дадеди в брой: ");
+                double number = double.Parse(Console.ReadLine());
+                double sum = price * quantity;
+                double substract = sum - number;
+                double substract2 = substract * -1;
+                {
+                    Header();
+                    Console.WriteLine("                          Портокал х " + quantity + "            " + price * quantity + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("                          ОБЩА СУМА" + "            " + price * quantity + "лв");
+                    Console.WriteLine("                          В Брой" + "               " + number + "лв");
+                    Console.WriteLine("                          Ресто" + "                " + substract2 + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Footer();
+                }
+                if (last == 2)
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            if (product == 4)
+            {
+                Console.Write("Въведете цена на продукта (лв): ");
+                double price = double.Parse(Console.ReadLine());
+                Console.Write("Въведете количество на продукта: ");
+                int quantity = int.Parse(Console.ReadLine());
+                Console.Write("Обща сума: " + price * quantity + "лв | Искате ли да продължите? (1 = да; 2= не): ");
+                int last = int.Parse(Console.ReadLine());
+                if (last == 1)
+                    Console.Write("Пари дадеди в брой: ");
+                double number = double.Parse(Console.ReadLine());
+                double sum = price * quantity;
+                double substract = sum - number;
+                double substract2 = substract * -1;
+                {
+                    Header();
+                    Console.WriteLine("                          Авокадо х " + quantity + "            " + price * quantity + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("                          ОБЩА СУМА" + "            " + price * quantity + "лв");
+                    Console.WriteLine("                          В Брой" + "               " + number + "лв");
+                    Console.WriteLine("                          Ресто" + "                " + substract2 + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Footer();
+                }
+                if (last == 2)
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            if (product == 5)
+            {
+                Console.Write("Въведете цена на продукта (лв): ");
+                double price = double.Parse(Console.ReadLine());
+                Console.Write("Въведете количество на продукта: ");
+                int quantity = int.Parse(Console.ReadLine());
+                Console.Write("Обща сума: " + price * quantity + "лв | Искате ли да продължите? (1 = да; 2= не): ");
+                int last = int.Parse(Console.ReadLine());
+                if (last == 1)
+                    Console.Write("Пари дадеди в брой: ");
+                double number = double.Parse(Console.ReadLine());
+                double sum = price * quantity;
+                double substract = sum - number;
+                double substract2 = substract * -1;
+                {
+                    Header();
+                    Console.WriteLine("                          Домат х " + quantity + "            " + price * quantity + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("                          ОБЩА СУМА" + "            " + price * quantity + "лв");
+                    Console.WriteLine("                          В Брой" + "               " + number + "лв");
+                    Console.WriteLine("                          Ресто" + "                " + substract2 + "лв");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Footer();
+                }
+                if (last == 2)
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                return;
+            }
+        }
+        static void Header()
+        {
+            Random rnd = new Random();
+            int eik = rnd.Next(100000000, 999999999);
+            int inp = rnd.Next(100000000, 999999999);
+            int opr = rnd.Next(1, 10);
+            Console.WriteLine("===========================================================================");
+            Console.WriteLine("                           ПРОДАВАЧ (ПЛАМЕН ЕООД)                          ");
+            Console.WriteLine("                    гр. Велико Търново, ул. Гурково №10                    ");
+            Console.WriteLine("                               МАГАЗИН ПЛАМЕН                              ");
+            Console.WriteLine("                    гр. Велико Търново, ул. В.Левски №15                   ");
+            Console.WriteLine("                               ЕИК: " + eik);
+            Console.WriteLine("                           ИН по ЗДДС: " + inp);
+            Console.WriteLine("                         Оператор "+ opr +"/ Пламен Петров                        ");
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+        static void Footer()
+        {
+            Console.WriteLine("                                ФИКСАЛЕН БОН                               ");
+            Console.WriteLine("===========================================================================");
+        }
+    }
+}
